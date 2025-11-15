@@ -64,19 +64,17 @@ public class Q1 {
         
         //Tip of the day
         int tips = rand.nextInt(5);
-        String tip = "";
         switch (tips){
-            case 0 : tip = "Revise your notes before sleeping.";
+            case 0 : System.out.println("Revise your notes before sleeping.");
             break;
-            case 1 : tip = "Take short breaks to refresh yourself.";
+            case 1 : System.out.println("Take short breaks to refresh yourself.");
             break;
-            case 2 : tip = "Create your own timetable to work effectively.";
+            case 2 : System.out.println("Create your own timetable to work effectively.");
             break;
-            case 3 : tip = "Drink more water to stay hydrated and healthy.";
+            case 3 : System.out.println("Drink more water to stay hydrated and healthy.");
             break;
-            case 4 : tip = "Keep distractions away and stay focus.";
+            case 4 : System.out.println("Keep distractions away and stay focus.");
         }
-        System.out.println("Tip of the Day: "+tip);
         k.close();
     }
         }
